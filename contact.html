@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+	<title> meterial design</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+	<script  src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+<style>
+    	body{    margin: 0;
+	    padding: 0;
+	    background: #000;
+	}
+	.carousel{
+	    height: 800px;
+	    perspective: 600px;
+	     
+	}
+	.carousel .carousel-item{
+	    width: 450px;
+	     
+	}
+    .carousel .carousel-item img{	    width: 400px;
+        height: 500px;
+	    border-radius: 10px 10px 0 0;
+	}
+	.carousel .carousel-item h2{
+	    margin: -5px 0 0;
+	    padding: 0;
+	    background: #fff;
+	    color:#000;
+	    box-sizing: border-box;
+	    padding: 10px 5px;	    font-weight: bold;
+	    font-size:3em;
+	    text-align: center;
+	   }
+
+</style>
+	</head>
+	<body>
+	 <div class="carousel">	    <a class="carousel-item" href="#one"><img src="img-1.jpg">
+	     
+	     </a>
+	    <a class="carousel-item" href="#two"><img src="img/01.jpg">
+	     
+	     </a>
+	    <a class="carousel-item" href="#three"><img src="img/02.jpg">
+	     
+	     </a>
+	    <a class="carousel-item" href="#four"><img src="img/03.jpg">
+	     
+	     </a>
+	    <a class="carousel-item" href="#five"><img src="img/04.jpg">
+	    
+	     </a>
+	     <a class="carousel-item" href="#six"><img src="img/05.jpg">
+	    
+	     </a>
+	     <a class="carousel-item" href="#seven"><img src="img/01.jpg">
+	     
+	     </a>
+	     <a class="carousel-item" href="#eight"><img src="img/02.jpg">
+	    
+	     </a>
+	   </div>
+	<script>
+        	  $(document).ready(function(){
+        	    $('.carousel').carousel();
+        	  });
+        	</script>
+        
+	</body>
+	</html>
